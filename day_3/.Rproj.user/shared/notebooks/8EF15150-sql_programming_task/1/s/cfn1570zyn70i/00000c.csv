@@ -1,0 +1,4 @@
+"0","full_name <- dbGetQuery(db_connection, employees)"
+"2","Error in h(simpleError(msg, call)) : 
+  error in evaluating the argument 'statement' in selecting a method for function 'dbGetQuery': object 'employees' not found
+"

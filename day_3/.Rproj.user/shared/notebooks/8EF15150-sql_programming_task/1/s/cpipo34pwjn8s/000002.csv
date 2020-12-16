@@ -1,0 +1,8 @@
+"0","SELECT 
+  e.id,
+  e.first_name, 
+  e.last_name, 
+  e.email, 
+  t.name AS team_name
+FROM employees AS e LEFT JOIN teams AS t
+ON e.team_id = t.id"

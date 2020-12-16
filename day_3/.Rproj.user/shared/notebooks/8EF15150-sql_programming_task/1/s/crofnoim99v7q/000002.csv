@@ -1,0 +1,7 @@
+"0","select
+  t.name AS team_name, 
+  COUNT(e.id) AS num_employees
+FROM employees AS e RIGHT JOIN teams AS t
+ON e.team_id = t.id
+GROUP BY t.name
+ORDER BY num_employees desc;"
